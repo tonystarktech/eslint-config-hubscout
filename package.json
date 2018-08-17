@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-hubscout",
+  "version": "1.0.0",
+  "description": "shared config for hubscout javascripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5",
+    "eslint-plugin-jest": "^21.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonystarktech/eslint-config-hubscout.git"
+  },
+  "author": "Dom Barker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonystarktech/eslint-config-hubscout/issues"
+  },
+  "homepage": "https://github.com/tonystarktech/eslint-config-hubscout#readme"
+}
