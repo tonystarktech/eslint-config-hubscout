@@ -18,7 +18,8 @@ module.exports = {
   "semi": [
       1,
       "never"
-  ]
+  ],
+  "react/require-default-props": [2]
   },
   "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jest/recommended"],
   "plugins": [ "react", "jest" ],
