@@ -10,15 +10,9 @@ module.exports = {
     "no-undef": [ 2 ],
     "react/prop-types": [1],
     "eqeqeq": [2, "always"],
-    "quotes": [
-      1,
-      "single",
-      { "avoidEscape": true }
-  ],
-  "semi": [
-      1,
-      "never"
-  ]
+    "quotes": [1, "single", { "avoidEscape": true }],
+    "semi": [1, "never"],
+    "indent": ["error", 2]
   },
   "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jest/recommended"],
   "plugins": [ "react", "jest" ],
