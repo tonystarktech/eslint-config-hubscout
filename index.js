@@ -18,7 +18,8 @@ module.exports = {
   "semi": [
       1,
       "never"
-  ]
+  ],
+  "react/destructuring-assignment": [2, "always"]
   },
   "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jest/recommended"],
   "plugins": [ "react", "jest" ],
